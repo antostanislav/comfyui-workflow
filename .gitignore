@@ -1,0 +1,15 @@
+ComfyUI/models/**
+!ComfyUI/models/checkpoints/
+!ComfyUI/models/unet/
+!ComfyUI/models/clip/
+!ComfyUI/models/vae/
+!ComfyUI/models/checkpoints/*.safetensors
+!ComfyUI/models/checkpoints/*.ckpt
+!ComfyUI/models/unet/*.gguf
+!ComfyUI/models/clip/*.safetensors
+!ComfyUI/models/vae/*.safetensors
+exports/
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.deb
